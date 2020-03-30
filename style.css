@@ -1,0 +1,372 @@
+*{margin:0;padding:0;outline:0}
+body{font-family: arial; font-size: 14px; line-height: 18px; color:black; background: url(image/bg.jpg) fixed}
+
+.templete {width: 980px; margin: 0 auto}
+.clear {overflow: hidden}
+input[type="text"] {
+    border: 1px solid gray;
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 300px;
+}
+input[type="submit"]{
+    background: black;
+    color: aliceblue;
+    padding: 3px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background: darkgray;
+    color: black;
+}
+
+.headersection
+    { 
+        background-color: black; 
+        color: white 
+    }
+.logo{
+    width: 400px; 
+    float: left
+}
+.logo img{
+    width: 100px;
+    float: left;
+    padding-right: 4px;
+}
+.logo h2{
+    display: block;
+    padding-top: 20px;
+    
+}
+.logo p{}
+.social {
+    width: 500px;
+    float: right;
+}
+.social img{
+    width: 50px;
+    float: right;
+}
+.navsection
+    { 
+         background-color: gray; 
+         color: white ;
+        min-height: 28px;
+        
+    }
+.navsection ul
+    {
+        margin: 0;
+        padding: o;
+        text-decoration: none;
+    }
+.navsection ul li
+    {
+        display: block; 
+        float: left;
+        border-right: 1px solid darkgray;
+        position: relative;
+    }
+.navsection ul li a
+    {
+         background-color: cadetblue ;
+        display: block;
+        font-size: 20px;
+        color: whitesmoke;
+        padding: 5px 50px;
+        text-decoration: none;
+    }
+.navsection ul li:last-child {
+    border-right: 0px solid darkgray;
+}
+.navsection ul li a:hover, #active
+    {
+       
+        background: #cdcbcc;
+        color: darkslateblue;
+    }
+.navsection ul li ul {
+    position: absolute;
+    left: -9999999px;
+    z-index: 900;
+}
+.navsection ul li:hover ul {
+    left: 0px;
+}
+.navsection ul li ul li {
+    width: 200px;
+    border-top: 1px solid darkgray;
+    
+}
+.navsection ul li ul li a {
+    font-size: 16px;
+    padding: 5px;
+    margin: 0px;
+    
+}
+
+.contentsection
+    {
+        background: url(image/bg.jpg);
+    }
+.maincontent
+    {
+        width: 650px; 
+        background : #DFDFDF;
+        float :left;
+        margin: 10px 10px 10px 0px;
+        padding: 10px;
+        
+    }
+
+.video {}
+.video iframe {
+    width: 100%;
+    padding: 4px;
+    border: 1px solid gray;
+}
+
+
+.feedback {}
+.rizve {}
+.about img{
+    width: 650px;
+}
+
+
+.about p, .rizve p {
+    text-align: justify;
+}
+.registration {}
+.contact {}
+.ourpic {}
+.samemain {}
+.samemain h2, .about h2, .registration h2, .rizve h2, .feedback h2, contact h2, .ourpic h2{
+    border-bottom: 2px solid gray;
+    font-size: 35px;
+    padding: 10px;
+    margin-bottom: 5px;
+    
+}
+.pic {
+    width: 220px;
+    height: 170px;
+    float: left;
+    margin-right: 10px;
+}
+.pic img{
+    width: 200px;
+    height: 150px;
+    background: white;
+    padding: 4px;
+    border: 1px solid gray;
+    position: absolute;
+}
+
+.pic:hover img{
+    transform: scale(1.5);
+    transition: 1s;
+}
+.pic1 {
+    width: 640px;
+}
+.pic1 img{
+    width: 640px;
+}
+.pic1:hover img{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+.pic2 {
+    width: 640px;
+    background: url(image/group/08.jpeg) 40px;
+}
+.pic2 img{
+    width: 640px;
+}
+.pic2:hover img{
+    transform: translate(500px);
+    transition: 1s;
+}
+
+
+.samemain p{
+    text-align: justify;
+    margin-bottom: 15px;
+   
+}
+.readmore{
+    float: right;
+    margin-top: 10px;
+}
+.readmore a{
+    padding: 4px 7px;
+    display: block;
+    border: 1px solid gray;
+    border-radius: 4px;
+    background: white;
+    text-decoration: none;
+}
+.readmore a:hover {
+    color: aqua;
+    background: black;
+}
+.sidebar
+    {
+        margin: 10px 0px 0px 0px;
+        width: 300px; 
+        float: right;
+    }
+.sameside {
+        background : #BBB9BA;
+        padding: 10px;
+        margin-bottom: 5px;
+        border-bottom: 1px solid white;
+}
+.sameside h2 {
+    font-size: 30px;
+    background: skyblue;
+    padding: 5px;
+    margin-bottom: 8px;
+}
+.sameside ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.sameside ul li {}
+.sameside ul li a {
+    text-decoration: none;
+    color: darkslategray;
+    font-size: 15px;
+    line-height: 22px;
+}
+.sameside ul li :hover {
+    color: deeppink;
+}
+.related {}
+.related h2{
+    border-bottom: 1px solid black;
+    padding: 5px 0px 5px 3px;
+    margin: 30px 0px 0px 0px;
+    background: gray;
+}
+.related img {
+    width: 50px;
+    height: 40px;
+    padding: 2px;
+    border: 1px solid gray;
+}
+
+.footersection
+    {
+        background-color: black; 
+        color: white ;
+        text-align: center;
+    }
+.footersection ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+.footersection ul li {
+    display: inline-block; 
+    padding: 3px;
+}
+.footersection ul li :hover {
+    color:red;
+}
+.footersection ul  a {
+    color: aliceblue;
+    text-decoration: none;
+
+}
+.footersection p {
+    text-align: center;
+    padding: 5px;
+    font-size: 10px;
+}
+.item {
+    height: 250px;
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.item img {
+    height: 250px;
+    width: 400px;
+}
+
+
+.picture {
+    width: 320px;
+    height: 260px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    z-index: 60;
+}
+.picture img {
+    width: 310px;
+    height: 250px;
+    padding: 4px;
+    border: 1px solid gray;
+    cursor: pointer;
+    
+}
+
+
+
+.shadow {
+    background: rgba(0, 0, 0, .5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+   top: -100%;
+    transition: .6s;
+    overflow: hidden;
+    
+    
+}
+.shadow h2 {
+    font-size: 40px; 
+    color: aliceblue;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 80px;
+    border-bottom: 0px solid black;
+  
+}
+
+.item:hover .shadow{top: 0}
+.picture:hover .shadow{
+    top: 0;
+    cursor: pointer;
+}
+
+@media only screen and (min-width:480px) and (max-width:760px) {
+.templete {width: 720px;}
+}
+
+@media only screen and (min-width:320px) and (max-width:479px) {}
+
+@media only screen and (min-width:240px) and (max-width:319px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
